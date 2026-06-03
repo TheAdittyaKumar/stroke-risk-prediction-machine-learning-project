@@ -1,6 +1,6 @@
 # Stroke Risk Prediction Using Machine Learning
 
-This project uses machine learning to predict whether a patient is likely to have a stroke based on healthcare, demographic, and lifestyle-related information.
+This project uses machine learning to predict whether a patient is likely to have a stroke based on healthcare, demographic and lifestyle-related information.
 
 The main idea was not only to build a prediction model, but also to understand how different machine learning models behave when the dataset is highly imbalanced. In this dataset, most patients did not have a stroke, while only a small number of patients had a stroke. Because of that, accuracy alone was not enough to judge the models.
 
@@ -8,7 +8,7 @@ This project was completed for the CSE422 Artificial Intelligence course.
 
 ## Project Overview
 
-The dataset contains patient information such as age, gender, hypertension, heart disease, marital status, work type, residence type, average glucose level, BMI, smoking status, and stroke status.
+The dataset contains patient information such as age, gender, hypertension, heart disease, marital status, work type, residence type, average glucose level, BMI, smoking status and stroke status.
 
 The target variable is `stroke`, where:
 
@@ -106,9 +106,9 @@ However, K-Means should not be treated as a direct stroke prediction model becau
 
 This project showed that healthcare classification problems can be difficult when the dataset is imbalanced.
 
-A model may look good based on accuracy but still fail to detect the minority class. For stroke prediction, recall, precision, F1-score, confusion matrix, ROC curve, and AUC score are more useful than accuracy alone.
+A model may look good based on accuracy but still fail to detect the minority class. For stroke prediction, recall, precision, F1-score, confusion matrix, ROC curve and AUC score are more useful than accuracy alone.
 
-The project also showed that preprocessing steps such as missing value handling, encoding, scaling, and stratified splitting are very important before training machine learning models.
+The project also showed that preprocessing steps such as missing value handling, encoding, scaling and stratified splitting are very important before training machine learning models.
 
 ## Technologies Used
 
@@ -163,4 +163,4 @@ stroke-risk-prediction-ml/
 
 ## Note
 
-This project is for educational purposes only. It should not be used as a real medical diagnosis system. Stroke risk prediction in real life requires proper clinical validation, expert review, and reliable medical data.
+This project is for educational purposes only. It should not be used as a real medical diagnosis system. Stroke risk prediction in real life requires proper clinical validation, expert review and reliable medical data.
